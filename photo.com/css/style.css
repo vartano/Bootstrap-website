@@ -1,0 +1,515 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.header{
+	background-color:#6900d1;
+}
+
+.container-fluid a{
+   color:white;
+}
+
+.navbar-toggler button span{
+	color:white;
+}
+
+.navbar-toggler-icon{
+	color:white;
+}
+
+.navbar a{
+
+	text-decoration: none;
+}
+.navbar-logo{
+	font-size:20px;
+}
+
+ h5{
+	color:white;
+	
+}
+
+.navbar-logo a{
+
+	text-decoration: none;
+}
+
+
+.container-fluid span{
+	border: 2px solid white;
+	border-radius:5px;
+	margin-right:5px;
+	font-size:25px;
+	font-weight: bold;
+	text-decoration: none;
+	color:white;
+	padding:3px;
+	text-transform: uppercase;
+}
+
+.container-fluid .fa-camera{
+	font-size:30px;
+}
+
+.container-fluid .fa-camera{
+  position: relative;
+
+  animation-name: disp;
+  animation-duration: 4s;
+  animation-delay: 2s;
+
+}
+
+
+.navbar-brand {
+	font-size:25px;
+}
+
+ .fa-camera{
+    margin-left: 10px;
+    font-size:30px;
+    color:white;
+}
+
+.navbar-nav{
+    margin-left:200px;
+	text-decoration: none;
+	text-align: right;
+	margin-right:14px;
+}
+
+.navbar-nav a{
+	font-size:18px;
+	color:white;
+	text-decoration: none;
+	margin-right: 10px;
+	display: block;
+	padding: 10px;
+	
+}
+
+.navbar-nav a:hover{
+	color:#6900d1;
+	background: white;
+
+}
+
+.fa-bars{
+	font-size:25px;
+}
+
+
+/* About-Us section*/
+
+.about-us {
+    height:600px;
+	background-image: url(../images/ab2.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.about-us{
+	display: flex;
+}
+
+.about-us h1{
+	position: absolute;
+	top:250px;
+	left:580px;
+	padding:5px 10px 5px 10px;
+	background: #6900d1;
+	color:white;
+	border:2px solid white;
+	border-radius: 5px;
+}
+
+.about-us p{
+	position: absolute;
+	top:400px;
+	left:400px;
+	padding:5px 10px 5px 10px;
+	background: #6900d1;
+	color:white;
+	font-size:20px;
+	text-align: justify all;
+	border:2px solid white;
+	border-radius: 5px;
+}
+
+
+
+
+/*gallery section*/
+
+.slide h2{
+	position: absolute;
+	top:-680px;
+	left:380px;
+	padding:5px 10px 5px 10px;
+	background: #6900d1;
+	color:white;
+	border:2px solid white;
+	border-radius: 5px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: #6900d1;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+
+.col-lg-4,.col-md-6,.col-lg-8{
+	background:#6900d1;
+	color:white;
+	
+}
+
+
+@keyframes disp{
+	0%{
+		font-size: 35px;
+	}
+	25%{
+		font-size: 45px;
+	}
+	50%{
+		font-size: 55px;
+	}
+	100%{
+		font-size: 25px;
+	}
+}
+
+
+@media (max-width:1000px){
+
+
+  
+
+	.slide h2{
+	position: absolute;
+	top:-500px;
+	left:250px;
+    }
+
+
+   .about-us h1{
+	position: absolute;
+	top:250px;
+	left:395px;
+    }
+
+    .about-us p{
+	position: absolute;
+	top:400px;
+	left:230px;
+    }
+   
+}
+
+
+@media (max-width:900px){
+
+   .navbar-nav{
+    margin-left:80px;
+
+    }
+
+
+	.slide h2{
+	position: absolute;
+	top:-450px;
+	left:200px;
+	text-align: justify;
+	
+    }
+
+
+   .about-us h1{
+	position: absolute;
+	top:300px;
+	left:350px;
+    }
+
+
+
+    .about-us p{
+	position: absolute;
+	top:400px;
+	left:180px;
+    }
+   
+}
+
+.card-body i{
+   margin-right: 10px
+}
+
+
+@media (max-width:800px){
+
+
+			.navbar-logo span{
+		font-size: 18px;
+	}
+
+   
+ /*    .container-fluid .fa-camera{
+    margin-right: 55px;
+    font-size:25px;
+   }*/
+
+ /*  .container-fluid h5{
+   	margin-right: 120px
+
+   }*/
+        
+
+
+
+	.slide h2{
+	position: absolute;
+	top:-380px;
+	left:200px;
+	
+    }
+
+
+   .about-us h1{
+	position: absolute;
+	top:290px;
+	left:300px;
+    }
+
+
+
+    .about-us p{
+	position: absolute;
+	top:500px;
+	left:120px;
+    }
+   
+}
+
+@media (max-width:750px){
+
+			.navbar-logo span{
+		font-size: 16px;
+	}
+
+   
+     .container-fluid .fa-camera{
+ 
+    font-size:22px;
+   }
+
+   .container-fluid h5{
+   	margin-right: 150px
+
+   }
+        
+
+
+}
+
+
+
+
+@media (max-width:700px){
+
+
+		.navbar-logo span{
+		font-size: 18px;
+	}
+
+   
+     .container-fluid .fa-camera{
+   
+    font-size:23px;
+   }
+
+   .container-fluid h5{
+   margin-right: 135px
+
+   }
+        
+
+
+	.slide h2{
+	position: absolute;
+	top:-300px;
+	left:170px;
+	
+    }
+
+
+   .about-us h1{
+	position: absolute;
+	top:390px;
+	left:250px;
+    }
+
+
+
+    .about-us p{
+	position: absolute;
+	top:600px;
+	left:55px;
+    }
+   
+}
+
+
+@media (max-width:600px){
+
+    	.navbar-logo span{
+		font-size: 15px;
+	}
+
+   
+     .container-fluid .fa-camera{
+     
+    font-size:20px;
+   }
+
+   .container-fluid h5{
+   	font-size:18px;
+   	margin-right: 170px
+
+   }
+
+
+	.slide h2{
+	position: absolute;
+	top:-250px;
+	left:120px;
+	
+    }
+
+
+
+
+
+   .about-us h1{
+	position: absolute;
+	top:300px;
+	left:200px;
+    }
+
+
+
+    .about-us p{
+	position: absolute;
+	top:400px;
+	left:30px;
+	font-size:18px;
+    }
+   
+}
+
+
+
+@media (max-width:650px){
+
+    	.container-fluid span{
+		font-size: 25px;
+	}
+
+   
+   .container-fluid .fa-camera{
+    display: none
+   }
+
+   .container-fluid h5{
+   	font-size:18px;
+   	margin-right:200px;
+   
+}
+
+}
+
+
+@media (max-width:500px){
+
+
+	    	.container-fluid span{
+	    		
+		font-size: 20px;
+	}
+
+   
+    .container-fluid .fa-camera{
+    display: none
+   }
+
+   .container-fluid h5{
+   	font-size:16px;
+   	margin-right: 190px
+   
+   
+}
+
+	
+	.slide h2{
+	position: absolute;
+	top:-200px;
+	left:70px;
+	
+    }
+
+
+   .about-us h1{
+	position: absolute;
+	top:300px;
+	left:130px;
+    }
+
+
+
+    .about-us p{
+	position: absolute;
+	top:500px;
+	left:2px;
+	font-size:16px;
+    }
+   
+}
+
+@media (max-width:400px){
+	.slide h2{
+	position: absolute;
+	top:-170px;
+	left:60px;
+	
+    }
+
+
+   .about-us h1{
+	position: absolute;
+	top:300px;
+	left:100px;
+    }
+
+
+
+    .about-us p{
+	position: absolute;
+	top:400px;
+	left:0px;
+	font-size:22px;
+	text-align: left
+    }
+   
+}
